@@ -14,9 +14,6 @@ public slots:
     void slotChangeTimeLabel();
 private:
     QLabel *timeLabel;
-        /*!
-      * \note   let the statusbar can be moved by clicking mouse
-      */
     QPoint last,pos;
     QHBoxLayout *layout;
     void mousePressEvent (QMouseEvent *e);
