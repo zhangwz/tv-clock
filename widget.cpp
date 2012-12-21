@@ -9,7 +9,7 @@ Widget::Widget(QWidget *parent)
 //    this->setStyleSheet("QWidget#ClockMainWindow{font: 20px;background:black;border-width:2px;border-color:red; border-radius: 7px;}");
     this->setWindowFlags (Qt::FramelessWindowHint| Qt::WindowStaysOnTopHint);
     this->setAttribute(Qt::WA_TranslucentBackground);
-    timeLabel = new QLabel("Ctyle Corporation");
+    timeLabel = new QLabel("Welcome Back!");
     timeLabel->setFixedWidth(300);
     timeLabel->setAlignment(Qt::AlignCenter);
 
