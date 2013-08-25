@@ -2,7 +2,9 @@
 #define WIDGET_H
 
 #include <QtGui>
-
+#include <QtWidgets>
+#include <QLabel>
+#include <QHBoxLayout>
 class Widget : public QWidget
 {
     Q_OBJECT
