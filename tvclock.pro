@@ -11,6 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = TV-Clock
 TEMPLATE = app
 
+ICON = resources/mac_app_icon.icns
 
 SOURCES += main.cpp\
         widget.cpp
